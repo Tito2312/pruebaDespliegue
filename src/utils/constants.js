@@ -3,7 +3,7 @@ const SERVE_IP = "work-services.onrender.com"
 
 export const ENV = {
     BASE_PATH: `http://${SERVE_IP}`,
-    BASE_API: `http://${SERVE_IP}`,
+    BASE_API: `https://${SERVE_IP}`,
     // BASE_API: `http://${SERVE_IP}/api/V1`,
     API_ROUTES: {
         REGISTER: "auth/register",
