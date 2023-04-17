@@ -6,7 +6,7 @@ import { ListChats } from '../../UI/ListChats/ListChats'
 import { Work, Chat as ChatMessage } from '../../../api'
 import { useAuth } from '../../../hooks'
 import io from "socket.io-client"
-const socket = io("http://localhost:3977")
+const socket = io("https://work-services.onrender.com")
 
 const chatController = new ChatMessage()
 const workController = new Work()
